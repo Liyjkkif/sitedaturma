@@ -1,0 +1,55 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Heading */
+h1 {
+  color: #0d47a1; /* Dark blue */
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Paragraph */
+p {
+  color: #1565c0; /* Medium blue */
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+/* Navbar */
+nav {
+  background-color: #1976d2; /* Blue background */
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+/* Section inside nav with options */
+nav section {
+  display: flex;
+  gap: 1rem;
+}
+
+/* Each option (could be links or buttons) */
+nav section a,
+nav section button {
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: opacity 0.3s ease;
+}
+
+nav section a:hover,
+nav section button:hover {
+  opacity: 0.8;
+}
