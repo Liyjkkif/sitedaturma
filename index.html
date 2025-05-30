@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Site da Turma</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <ul class="nav">
+      <li><a href="index.html">Início</a></li>
+      <li>
+        <select onchange="location.href=this.value">
+          <option value="">Turma ▼</option>
+          <option value="sobreturma.html">Sobre a Turma</option>
+          <option value="integrantes.html">Integrantes</option>
+          <option value="galeria.html">Galeria</option>
+        </select>
+      </li>
+      <li>
+        <select onchange="location.href=this.value">
+          <option value="">Ensino ▼</option>
+          <option value="questionario.html">Questionário Bimestral</option>
+          <option value="apostilas.html">Apostilas / Downloads</option>
+          <option value="chat.html">Chat</option>
+        </select>
+      </li>
+      <li><a href="eventos.html">Eventos</a></li>
+      <li><a href="mural.html">Mural</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>Bem-vindo ao site da turma!</h1>
+    <p>Aqui você encontra informações sobre a turma, ensino, eventos, recados e muito mais.</p>
+  </main>
+
+  <footer>
+    <p>Contato | Créditos | Redes Sociais</p>
+  </footer>
+
+</body>
+</html>
