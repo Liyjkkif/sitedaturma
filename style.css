@@ -7,6 +7,7 @@ body {
 }
 
 nav {
+    width: 100%;
     background-color: #111;
     padding: 1rem 0;
 }
@@ -24,10 +25,6 @@ nav a {
     color: #1e90ff;
     text-decoration: none;
     font-size: 1rem;
-}
-
-nav a:hover {
-    color: #63b3ed;
 }
 
 nav select {
@@ -54,6 +51,7 @@ header img {
 h1 {
     color: #1e90ff;
     font-size: 2.5rem;
+    margin-bottom: 4rem;
 }
 
 h2 {
@@ -105,3 +103,14 @@ footer img {
     height: 40px;
     margin-right: 8px;
 }
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
